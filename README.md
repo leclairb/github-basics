@@ -20,6 +20,7 @@ Through this assignment, you will learn about:
 1. Go to https://github.com/c320vws/github-basics and click on "Fork." This creates a copy of `c320vws/github-basics` under your personal account, at `user/github-basics`.
 
 ## Making changes using a branch
+
 1. Go to `user/github-basics`, click on the dropdown menu that says "branch: master" and type in the first four letters of your last name and the first two letters of your first name (i.e. `llllff`). For example, Matt Beall would become `bealma`. Hit `ENTER`. This creates a branch (copy) of the `master` branch.
 1. Using the branch you just created, click on the `names.md` file. Click "Edit." In this screen, you can go back and forth between the "Code" view and the "Preview."
 1. In the "Code" view, underneath `# Names`, add your first and last name to the bottom of the list.
