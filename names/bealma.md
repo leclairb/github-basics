@@ -28,6 +28,7 @@ Otherwise, it will output as a single paragraph.
 
 1. Precede each bullet point with `1.`, followed by a space
 2. Markdown doesn't require increasing the numeral
+9. In fact, it ignores the numeral entirely (this bullet is actually number 9)
 3. GitHub, however, automatically does so
  1. To create nested ordered lists, add a space before the `1.`
  2. GitHub only supports one level of nesting
