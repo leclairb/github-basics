@@ -22,8 +22,8 @@ Through this tutorial, you will learn about:
 ## Making changes using a branch
 1. Go to `user/github-basics`, click on the dropdown menu that says "branch: master" and type in the first four letters of your last name and the first two letters of your first name (i.e. `llllff`). For example, Matt Beall would become `bealma`. Hit `ENTER`. This creates a branch (copy) of the `master` branch.
 2. Using the branch you just created, click on the `names` directory and then the plus sign to create a new file.
-3. In this screen, you can go back and forth between the "Code" view and the "Preview." Name the new file `llllff.md`, using the same name as the branch you created.
-4. In the "Code" view, type `# First Last`, using your name. Feel free to write additional markdown below this.
+3. Name the new file `llllff.md`, using the same name as the branch you created.
+4. Type `# First Last`, using your name. Feel free to write additional markdown below this.
 5. In the "Commit changes" dialog, there is a title field. You can use the default for this tutorial (`Create llllff.md`), but in the future the default will most likely not be acceptable. The title should give a short description (less than 50 characters) of changes made.
 6. If you want, you can add an optional extended description. For this commit, this doesn't really make sense, but the description may prove useful later.
 7. Click "Commit changes."
@@ -50,9 +50,10 @@ Now that you have merged the changes into your personal master branch, it's time
  2. Click on the green button to the left of the branch dropdown.
  3. Make sure the base fork is `user/github-basics` and the base branch is `master`. (You may need to click "Edit" to change this.)
  4. Make sure the head fork is `c320vws/github-basics` and the head branch is `master`. (You may need to click "Edit" and "compare across forks" to change this.)
- 5. Click "Create Pull Request", and then "send pull request".
- 6. Because this is your personal repo, on the next page you will be able to "Merge pull request." Click on this and then "Confirm merge."
- 7. If you are unable to merge, please email Matt for help.
+ 5. If it says "There isn't anything to compare," skip to step 2.
+ 6. Click "Create Pull Request", and then "send pull request".
+ 7. Because this is your personal repo, on the next page you will be able to "Merge pull request." Click on this and then "Confirm merge."
+ 8. If you are unable to merge, please email Matt for help.
 2. If you have completed step one successfully, submit pull request to parent repo.
  1. Go to `user/github-basics` and make sure that you are in the master branch.
  2. Click on the green button to the left of the branch dropdown.
@@ -60,6 +61,5 @@ Now that you have merged the changes into your personal master branch, it's time
  4. Make sure the head fork is `user/github-basics` and the head branch is `master`. (You may need to click "Edit" and "compare across forks" to change this.)
  5. Click "Create Pull Request", and then "send pull request".
  6. Because this is the parent repo, you shouldn't be able to "Merge pull request." If you can, please email Matt to let him know.
- 7. If you are unable to merge, please email Matt for help.
 
 If you followed all the steps above and completed them successfully, you're done!
