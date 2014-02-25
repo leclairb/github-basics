@@ -32,4 +32,11 @@ Now that you have added your name to the `names.md` file in the `llllff` branch,
 
 1. Go to `user/github-basics` and make sure that you are in the correct branch. To change the branch, select the dropdown menu.
 1. Click on the green button to the left of the branch dropdown.
-1. On the next screen, it should default to the correct settings, but take note of them anyway. The 
+1. On the next screen, you will see two dropdown menus: base and compare (or head).
+ * the compare (or head) branch/fork is the branch/fork with the changed files
+ * the base branch/fork is the branch/fork that you are merging the compare branch files into
+1. Make sure the base fork is `user/github-basics` and base branch is `master`.
+1. Make sure the head fork is `user/github-basics` and compare branch is `llllff`.
+1. Click "Create Pull Request", and then "send pull request".
+1. Because this is your personal repo, on the next page you will be able to "Merge pull request." Click on this and then "Confirm merge".
+1. At this point in time, do NOT delete the branch.
