@@ -3,7 +3,7 @@
     in the "New Vuyiroli Website" team
     in CIS320 - Project Management in Information Technology.
 
-Through this assignment, you will learn about:
+Through this tutorial, you will learn about:
 * GitHub registration and organizations
 * Repositories (aka repos)
 * Markdown
@@ -24,7 +24,7 @@ Through this assignment, you will learn about:
 2. Using the branch you just created, click on the `names` directory and then the plus sign to create a new file.
 3. In this screen, you can go back and forth between the "Code" view and the "Preview." Name the new file `llllff.md`, using the same name as the branch you created.
 4. In the "Code" view, type `# First Last`, using your name. Feel free to write additional markdown below this.
-5. In the "Commit changes" dialog, there is a title field. You can use the default for this example (`Create llllff.md`), but in the future the default will most likely not be acceptable. The title should give a short description (less than 50 characters) of changes made.
+5. In the "Commit changes" dialog, there is a title field. You can use the default for this tutorial (`Create llllff.md`), but in the future the default will most likely not be acceptable. The title should give a short description (less than 50 characters) of changes made.
 6. If you want, you can add an optional extended description. For this commit, this doesn't really make sense, but the description may prove useful later.
 7. Click "Commit changes."
 
