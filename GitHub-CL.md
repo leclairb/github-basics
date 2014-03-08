@@ -81,24 +81,22 @@ When you make changes to code that belong to code in a `parent` repo, do the fol
     # The comment is required, but can be anything you wish
 
 ### Commit changes to remote child
-1. Make changes to the files you need changed. For best results, use `nano`.
-2. If you add any files, make sure to use `$ git add file.html`.
-3. After making the desired changes, use the following code:
+Make changes to the files you need changed. For best results, use `nano` or another command-line editor. If you add any files, make sure to use `$ git add file.html`. After making the desired changes, use the following code:
+    
+    $ git diff
+    # Check status of changes (optional)
 
-        $ git diff
-        # Check status of changes (optional)
+    $ git commit -a -m 'Title of commit'
+    # Commit changes with a descriptive title
 
-        $ git commit -a -m 'Title of commit'
-        # Commit changes with a descriptive title
-
-        $ git push origin master
-        # Push changes of local repository to remote child repository
+    $ git push origin master
+    # Push changes of local repository to remote child repository
 
 ### Submit changes via Pull Request
-This is only possible by installing GitHub's hub.
+This is only possible by installing [hub](https://github.com/github/hub#readme), which means also installing [Homebrew](http://brew.sh).
 
 ### Commit changes to remote parent (not recommended)
 After committing change to remote child, follow these steps:
 
-        $ git push upstream master
-        # Push changes of local repository to remote parent repository
+    $ git push upstream master
+    # Push changes of local repository to remote parent repository
