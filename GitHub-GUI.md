@@ -1,4 +1,4 @@
-# GitHub Basics (GUI)
+# GitHub Basics (Graphic User Interface)
 
 ## Terms
 __Repository__ (a.k.a. “repo”) - a place where the history of your work is stored
